@@ -1,0 +1,206 @@
+body,html {
+ height: 100%;
+}
+body{
+    font-size: 14px;
+}
+a{
+	color:#FFF;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color:#FFF;
+}
+.page-container{
+    margin-top:50px;
+    padding:30px;
+    min-height:550px;
+}
+.navbar{
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+.header-top{
+    width:100%;
+	margin:0 auto;
+    z-index: 9999;
+	padding:10px;
+	color:#fff;
+	background-color:#2A688C;
+    box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+.progress{
+    height: 15px;
+    margin-bottom:0px;
+}
+.progress-bar{
+    line-height: 15px;
+}
+textarea.task-textarea{
+    height:120px;
+ }
+
+/* Events In Calender CSS*/
+.calender-top-section{
+    margin-top: 50px;
+}
+.control{
+    padding: 10px;
+    border-radius: 10px;
+}
+.calendar{
+    width:100%;
+}
+.calendar-day-head{
+    padding:10px;
+}
+.calendar-day{
+    
+}
+.day-number   { 
+    width:32px;
+    float:right;
+    margin: -5px -25px 10px 0;
+    z-index:5;
+    padding:5px; 
+    background:#BCE0AC;
+    color:#003366; 
+    font-weight:bold; 
+    text-align:center; 
+}
+.event{
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    background-color: #11383D;
+    font-size: 13px;
+    padding: 10px 5px;
+    margin-top:10px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #999;
+}
+td.calendar-day, td.calendar-day-np { 
+    width:120px; 
+    padding:5px 25px 5px 5px; 
+    border:1px solid #999;  
+}
+
+/*Popover CSS*/
+.popover {
+    width: 240px;
+    color: #002299;
+    text-align:center;
+}
+.popover-content span{
+    font-weight: bold;
+    color:#ff0000;
+}
+
+.footer-bottom, .footer-bottom-employee{ 
+    width:100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height:auto;
+    padding:30px 0;
+    overflow:hidden;
+    text-align:center;
+    color:#FFF;
+}
+.footer-bottom-employee{
+    color:#9d9d9d;
+}
+.footer-bottom-employee{
+    color:#FFF;
+}
+
+.error-message{text-align:center;color: #a94442;background-color: #f2dede;border:1px solid #ebccd1;padding:5px 10px;margin:10px 0;}
+.success-message{text-align:center;color: #3c763d;background-color: #dff0d8;border:1px solid #d6e9c6;padding:5px 10px;margin:10px 0;}
+
+/* Responsive CSS */
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    body, .btn, a, span, .glyphicon {
+        font-size: 12px;
+    }
+    .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .btn {
+    	padding: 4px 8px;
+    }
+    
+    .page-container{
+        margin-top:40px;
+        padding:30px 25px;
+        min-height:500px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 621px) {
+    body, .btn, a, span, .glyphicon {
+        font-size: 10px;
+    }
+    .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .btn {
+    	padding: 3px 6px;
+    }
+    .page-container{
+        margin-top:35px;
+        padding:30px 20px;
+        min-height:450px;
+    }
+}
+@media only screen and (max-width: 620px) and (min-width: 481px) {
+    body, .btn, a, span, .glyphicon {
+        font-size: 9px;
+    }  
+    .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+        font-size: 9px;
+        padding: 4px;
+    }  
+    .btn {
+    	padding: 2px 4px;
+    }
+    .page-container{
+        margin-top:30px;
+        padding:30px 12px;
+        min-height:400px;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 321px) {
+    body, .btn, a, span, .glyphicon {
+        font-size: 7px;
+    } 
+    .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+        font-size: 7px;
+        padding: 2px;
+    }   
+    .btn {
+    	padding: 2px 4px;
+    }
+    .page-container{
+        margin-top:30px;
+        padding:30px 10px;
+        min-height:400px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    body, .btn, a, span, .glyphicon {
+        font-size: 6px;
+    }  
+    .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+        font-size: 6px;
+        padding: 1px;
+    }  
+    .btn {
+    	padding: 1px 2px;
+    }
+    
+    .page-container{
+        margin-top:30px;
+        padding:30px 10px;
+        min-height:300px;
+    }
+}
